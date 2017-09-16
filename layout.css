@@ -1,0 +1,259 @@
+@font-face {
+font-family:'bebas neue regular';
+src: url(fonts/BebasNeueRegular.ttf)format('truetype');
+}
+@font-face {
+font-family:'bebas neue bold';
+src: url(fonts/BebasNeueBold.ttf)format('truetype');
+}
+
+@font-face {
+font-family:'ostrich sans';
+src: url(fonts/ostrich-bold.ttf)format('truetype');
+}
+@font-face {
+font-family:'ostrich sans';
+src: url(fonts/ostrich-regular.ttf)format('truetype');
+}
+
+
+*{
+margin:0px;padding:0px;
+}
+html,body{
+  height:100%;
+  width:100%;
+  margin: 0;
+  padding: 0;
+}
+#wrapper {
+	min-height:100%;
+	position:relative;
+}
+#header {
+	background:#ededed;
+	padding:10px;
+}
+#content {
+	padding-bottom:125px; /* Height of the footer element */
+}
+#footer {
+	background:#bdbdbd;
+	width:100%;
+	height:125px;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+
+header{
+background:#ccc;
+position:relative;
+top:0px;height:750px;
+position:relative;
+width:100%;
+background-image:url(images/beach.jpg);
+background-attachment:fixed;overflow:hidden
+}
+h1{
+font-family:ostrich sans;
+font-size:100px;
+text-align:center;
+color:white;
+text-decoration:none;
+letter-spacing:40px;
+padding-top:300px;
+overflow:hidden
+font-weight:bold
+}
+nav{
+text-align:center;
+border:white solid 10px;
+padding:0.2em 0.5em;
+padding-left:0px;
+padding-right:0px;
+position:fixed;
+position:center;
+z-index:2}
+nav a{
+text-decoration:none;
+display:inline-block;
+font-family:ostrich sans;
+font-size:40px;
+margin-left:40px;
+margin-right:40px;
+color:#ccc;
+text-align:center;
+weight:bold
+}
+nav a:hover{
+color:black
+}
+.scroll{
+height:400px
+}
+span{
+display:inline-block;
+border:white solid 10px;
+padding:0.2em 0.5em
+}
+.slogan{
+text-align:center;
+font-family:bebas neue regular;
+color:white;
+letter-spacing:3px;
+margin-top:10px;
+font-weight:700px;
+font-size:20px
+}
+.article1 h5{
+font-size:40px;
+font-family:bebas neue bold;
+text-align:center;
+margin-bottom:10px
+}
+.article1 p{
+font-size:25px;
+font-family:ostrich sans;
+color:#2F4F4F;
+text-align:center;
+width:400px;
+position:relative;
+margin:5px auto
+}
+.article1 hr{
+width:350px;
+position:relative;
+margin:0 auto
+}
+figure{
+display:inline;
+position:relative;
+opacity:0;
+transition:all 0.3s ease-in-out
+}
+figure.is-showing{
+opacity:1;
+transform:translateX(0px)
+}
+.article2{
+margin-top:50px
+}
+.model-pics{
+margin-left:10px;
+margin-right:10px
+}
+#endpage{
+margin:100px auto;
+width:1250px;
+weight:bold
+}
+#comsn{
+font-size:100px;
+text-align:center;
+font-family:bebas neue bold;
+font-weight:bold;
+color:#2F4F4F
+}
+img{
+  display:inline;
+  margin:25px 25px;
+}
+.model-pics figure img{
+transition:all 0.5s ease
+}
+.model-pics figure img:hover{
+-webkit-filter:blur(5px)
+}
+figcaption{
+position:absolute;
+bottom:125px;
+left:25%;
+color:black;
+font-family:ostrich sans;
+font-size:40px;
+opacity:0
+}
+figcaption:hover{
+opacity:1;
+}
+.vwmr{
+font-family:bebas neue regular;
+font-size:30px;
+margin-top:50px;
+background-color:#D6D6D6;
+width:200px;
+height:45x;
+padding:5px 0px;
+border-radius:5px;
+}
+.vwmr:hover{
+  background-color:#F5F0E6;
+}
+.periscope{
+  margin-top: 30px;
+  height:640px;
+  width:640px;
+  background-image: url(images/models/model6.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position:top center;
+  border-radius:100%;
+}
+.periscope2{
+  margin-top: 30px;
+  height:640px;
+  width:1000px;
+  background-image: url(images/cn2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position:top center;
+  border-top-left-radius:50%;
+  border-top-right-radius:50%;
+  border-bottom-right-radius:50%;
+  border-bottom-left-radius:50%;
+}
+.credit{
+  font-family: ostrich sans;
+  font-weight: bold;
+  text-align: center;
+  font-size: 60px;
+  color: white;
+}
+#abtushr{
+  width:60%;
+  margin:100px auto;
+}
+#abtus{
+  margin-top: 50px;
+  font-size:90px;
+  text-align:center;
+  font-family:bebas neue bold;
+  font-weight:bold;
+  color:#2F4F4F
+  }
+#abtusp{
+  /*font-size: 30px;*/
+  font-size: 200%;
+  font-family: ostrich sans;
+  width:40%;
+  height:400px;
+  float: left;
+  margin-right: 50px;
+  margin-left: 200px;
+  margin-top: 50px;
+  position: relative;
+}
+#abtuspng{
+float:left;
+position: absolute;
+margin-top: 50px;
+
+}
+#hrabtus{
+  width: 60%;
+  margin: 50px auto;
+}
+.clear{
+  clear: both;
+}
